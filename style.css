@@ -1,0 +1,25 @@
+html{
+  background: url(1.jpg) no-repeat center center fixed;
+  -o-background-size:cover;
+  background-size: cover;
+}
+.btn {
+  margin-top: 50%;
+  margin-left: 45%;
+
+}
+.btn--1{
+  background-color: #04a777;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 300px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+
+}
+.btn--1:hover{
+  background-color:#8a4fff;
+  cursor: pointer;
+}
