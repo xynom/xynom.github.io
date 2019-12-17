@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 10px;
+  font-family: "source sans pro", sans-serif;
+  background-color: #fdfffc;
+}
+
+a{
+  text-decoration: none;
+  color: #617073;
+  text-align: center;
+}
+nav{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center;
+  border-bottom: 1px solid #b8bedd;
+}
+.brand{
+  font-size: 3rem;
+  font-weight: 300;
+}
+.brand span{
+  color: crimson;
+}
+.wrapper{
+  background: crimson;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: -200px;
+  overflow: hidden;
+}
+.container{
+  max-width: 600px;
+  margin:0 auto;
+  padding: 80px 0;
+  height: auto;
+  text-align: center;
+}
+.container h1{
+  font-size: 40px;
+  font-weight: 200px;
+  color: white;
+}
+.container p{
+  font-size: 18px;
+  padding: 10px 15px;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.container a{
+  color: white;
+}
+form{
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+input{
+  display: block;
+  appearance:none;
+  outline:0;
+  width: 250px;
+  border:0;
+  border-radius: 3px;
+  padding: 10px 15px;
+		margin: 0 auto 10px auto;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+
+		color: crimson;
+
+		transition-duration: 0.25s;
+		font-weight: 300;
+}
+
+  input:focus{
+    background-color: white;
+    width: 300px;
+
+    color: crimson;
+  }
+  button{
+  		appearance: none;
+  		outline: 0;
+  		background-color: white;
+  		border: 0;
+  		padding: 10px 15px;
+  		color: crimson;
+  		border-radius: 3px;
+  		width: 250px;
+  		cursor: pointer;
+  		font-size: 18px;
+  		transition-duration: 0.25s;
+    }
+    button:hover{
+      background-color: rgb(245, 247, 249);
+    }
